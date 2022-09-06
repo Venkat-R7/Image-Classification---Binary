@@ -19,3 +19,11 @@ The dataset was pre-processed before the same cwas used In model training, for t
 3. Normalising the array to store the values between 0 to 1
 4. Storing the normalised data to a NumPy Array
 5. Principle component analysis
+
+**Principal Component Analysis**
+
+The steps involved and performed as part of PCA are as follows:
+The images used in this project are colour images with three channels: red, green, and blue. Each image's dimensions are 350 * 350 * 3, with 350 representing the image's height and breadth and 3 representing the three colours red, green, and blue.
+Each picture channel was split from the original image using the CV2 module, and the values of each channel were stored in three independent NumPy arrays.
+The original image, as well as the three different colour channels that were split, are displayed in the sample image below.
+
