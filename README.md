@@ -1,4 +1,4 @@
-# Image-Classification - Binary with Principal Component Analysis
+# Image Classification - Binary, with Principal Component Analysis
 
 **Introduction**
 
