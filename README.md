@@ -1,4 +1,4 @@
-# Image-Classification---Binary
+# Image-Classification - Binary with Principal Component Analysis
 
 **Introduction**
 
@@ -69,15 +69,18 @@ The following data augmentations were applied to the dataset before passing to C
 From training four different models it was observed that two models, Random Forest and CNN performed equally well with accuracy of 60.18 and 60.20 respectively. Considering this both the models have been taken up for further tuning
 
 **Random Forest
+
 GridSearchCV estimator was used for the purpose of find the optimum hyperparameters for the best model, after assessing multiple parameters the number of estimators and the criterion to be used were evaluated, with a 10-fold cross validation the best model fit parameters were identifies along with the best accuracy score
 
+![](Images/Image6.png)
+
+**CNN
+
+![](Images/Image5.png)
 
 The model Accuracy and loss is depicted in the above graph, the 12th epoch is chosen the best as, it can be observed after which the loss factor is increasing rapidly with deteriorating accuracy as well. 
 
 With that, the best model in classification of dog vs cats is the hyperparameter tuned CNN model with an accuracy of 63.18 %.
-
-
-
 
 **Conclusion**
 
