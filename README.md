@@ -60,8 +60,11 @@ All of the models were trained on the train dataset, and the accuracy was calcul
 
 In data processing, data augmentation refers to approaches for increasing the amount of data by adding slightly changed copies of current data or creating new synthetic information from existing data. When training a machine learning model, it functions as a regularize and helps to reduce overfitting.
 The following data augmentations were applied to the dataset before passing to CNN model:
+
 •	Random flip of images – horizontally and vertically
+
 •	Random zoom of images, based on both height and width
+
 •	Random rotation of images 
 
 **Results**
